@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador - Fundos Imobiliários</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+
+
+        <img id="logo" src="images/Invista +.svg">
+
+        </div>
+        <div class="logo-social">
+
+            <img src="images/github-logo.svg">
+
+        </div>
+    </header>
+
+    <section class="container">
+        <div class="conteudo">
+            <h1>Simulador de Fundos Imobiliários</h1>
+            <h3>Simule os lucros sobre seus investimentos...</h3>
+
+
+
+        </div>
+        <button class="btn-lucro">Ver meus lucros</button>
+        <img id="seta" src="images/seta.svg">
+    </section>
+    <section class="container">
+        <div class="box-form">
+            <div>
+                <label for="pricing-cota">Preço da cota</label>
+                <input type="number" min="1" name="pricing-cota" placeholder="R$">
+
+                <label for="invest-men">Investimentos Mensal</label>
+                <input type="number" min="1" name="invest-men" placeholder="R$">
+
+            </div>
+            <div>
+                <label for="frendimento">Último Rendimento</label>
+                <input type="number" name="frendimento" min="0.00" placeholder="und">
+
+                <label for="fprazo">Prazo</label>
+                <input type="number" min="1" name="fprazo" placeholder="R$">
+            </div>
+            <div>
+                <label for="und-cota">Qtde de cotas Inicias</label>
+                <input type="number" min="1" name="und-cota" placeholder="und">
+
+                <button id="btn-sub">CALCULAR</button>
+            </div>
+
+
+        </div>
+        <div class="box-result">
+
+            <div class="detalhe-titulo">
+                <h3>
+                    Resultado da Simulação
+                </h3>
+            </div>
+            <div id="result">
+
+                <div>
+                    <p>
+                        Preço
+                    </p>
+                    <h2>
+                        R$10,33
+                    </h2>
+                </div>
+                <div>
+                    <p>
+                        Prazo
+                    </p>
+                    <h2>
+                        10 Anos
+                    </h2>
+                </div>
+
+                <div>
+                    <p>
+                        Total Investido
+                    </p>
+                    <h2>
+                        24K
+                    </h2>
+                </div>
+                <div>
+                    <p>
+                        Total<br> Reinvestido
+                    </p>
+                    <h2>
+                        27K
+                    </h2>
+                </div>
+
+
+                <div>
+
+                    <p>
+                        Último<br>Rendimento
+                    </p>
+                    <h2>
+                        R$ 0,11
+                    </h2>
+                </div>
+                <div>
+                    <p>
+                        Dividendos<br> mensais no final
+                    </p>
+                    <h2>
+                        R$547,69
+                    </h2>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section id="container-anos">
+        <article class="list-ano">
+
+            <h2>1 Ano</h2>
+            <img src="./images/seta-expandTask.svg">
+        </article>
+        <div class="content-list">
+            <table>
+                <tr>
+                    <th>
+                        <h3>Mês</h3>
+                    </th>
+                    <th>
+                        <h3>Cotas</h3>
+                    </th>
+
+                    <th>
+                        <h3>Valor Investido</h3>
+                    </th>
+
+                    <th>
+                        <h3>Reinvestimento</h3>
+                    </th>
+
+                    <th>
+                        <h3>Dividendo</h3>
+                    </th>
+
+
+                </tr>
+
+            </table>
+        </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <h2 id="info-site">
+            @ Site Criado por Ryan Varela
+        </h2>
+    </footer>
+
+</body>
+
+</html>
